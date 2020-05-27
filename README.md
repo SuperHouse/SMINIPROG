@@ -1,14 +1,16 @@
 Sonoff Mini Programming Jig
 ===========================
-Copyright 2019 SuperHouse Automation Pty Ltd  www.superhouse.tv  
+Copyright 2019-2020 SuperHouse Automation Pty Ltd  www.superhouse.tv  
 
 Pogo pin board for programming a Sonoff Mini using the test points on
 its PCB.
 
-Exposes the connections to an ESProg header, which can be used for
-discrete wire connections or to plug in an ESProg programmer.
+![PCB render](images/SMINIPROG-v2_0-oblique-render.jpg)
 
-www.superhouse.tv/sprogmini
+Exposes the connections to an ESP-Prog header, which can be used for
+discrete wire connections or to plug in an ESPFlasher programmer.
+
+www.superhouse.tv/sminiprog
 
 INSTALLATION
 ------------
