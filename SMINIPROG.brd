@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -188,13 +188,13 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:Ss0jH6vdRPyH-g18Rtdl8Q" pcbguid="7c041741-ff82-4a65-b36c-07d015d7a388" lastpulledtime="" lastsyncedchangeguid="e9f26d51-8d77-8990-ea5a-7269f7c98132"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTkwNjE5MTk5NjgzNjgx" f3durn="urn:adsk.wipprod:dm.lineage:Ss0jH6vdRPyH-g18Rtdl8Q" pcbguid="7c041741-ff82-4a65-b36c-07d015d7a388" lastpulledtime="" lastsyncedchangeguid="e9f26d51-8d77-8990-ea5a-7269f7c98132" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="dd54295d-82e3-08b9-9220-338ccb8939fe" lastpushedtime="2020-05-25T11:43:54Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="0" y1="40" x2="40" y2="40" width="0" layer="20"/>
 <wire x1="40" y1="40" x2="40" y2="0" width="0" layer="20"/>
 <wire x1="40" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="40" width="0" layer="20"/>
-<text x="35.2" y="6" size="1.016" layer="21" font="vector" ratio="16" distance="30">v1.0</text>
+<text x="2.18" y="6" size="1.27" layer="21" font="vector" ratio="16" distance="30">v2.0</text>
 <text x="2" y="16.3" size="1.9304" layer="21" font="vector" ratio="16" distance="30">Sonoff Mini
 Programming
 Jig</text>
@@ -203,12 +203,7 @@ Jig</text>
 <hole x="3" y="3" drill="3.2"/>
 <hole x="37" y="3" drill="3.2"/>
 <hole x="37" y="37" drill="3.2"/>
-<text x="28.5" y="13" size="1.778" layer="21" font="vector" ratio="14" align="center-right">GND</text>
-<text x="28.5" y="15.54" size="1.778" layer="21" font="vector" ratio="14" align="center-right">GPIO0</text>
-<text x="28.5" y="18.08" size="1.778" layer="21" font="vector" ratio="14" align="center-right">3.3V</text>
-<text x="28.5" y="20.62" size="1.778" layer="21" font="vector" ratio="14" align="center-right">RX</text>
-<text x="28.5" y="23.16" size="1.778" layer="21" font="vector" ratio="14" align="center-right">TX</text>
-<text x="28.5" y="25.7" size="1.778" layer="21" font="vector" ratio="14" align="center-right">!RST</text>
+<text x="29.5" y="18.73" size="1.778" layer="21" font="vector" ratio="14" align="center-right">3.3V</text>
 <text x="28.5" y="7.92" size="1.778" layer="21" font="vector" ratio="14" align="center-right">GPIO2</text>
 <text x="17.84" y="38.7" size="1.27" layer="21" font="vector" ratio="14" align="center-right">GND</text>
 <text x="18.04" y="36.96" size="1.27" layer="21" font="vector" ratio="14" align="center-right">3.3V</text>
@@ -217,9 +212,9 @@ Jig</text>
 <text x="26.48" y="35.7" size="1.27" layer="21" font="vector" ratio="14" align="center-right">!RST</text>
 <text x="21.12" y="26.4" size="1.27" layer="21" font="vector" ratio="14" align="center-right">GPIO0</text>
 <text x="21.12" y="28.34" size="1.27" layer="21" font="vector" ratio="14" align="center-right">GPIO2</text>
-<wire x1="31" y1="27" x2="39" y2="27" width="0.254" layer="21"/>
+<wire x1="31" y1="28" x2="39" y2="28" width="0.254" layer="21"/>
 <wire x1="31" y1="12" x2="39" y2="12" width="0.254" layer="21"/>
-<text x="36" y="20" size="2.1844" layer="21" font="vector" ratio="14" rot="R90" align="center">ESProg
+<text x="32" y="31" size="1.7" layer="21" font="vector" ratio="14" align="center">ESPFlasher
 Header</text>
 <text x="3" y="14" size="1.27" layer="21" font="vector" ratio="14">by Jon Oxer</text>
 <text x="7" y="3" size="1.27" layer="22" font="vector" ratio="14" rot="MR90">Copyright 2019
@@ -234,6 +229,11 @@ tapr.org/OHL</text>
 <dimension x1="-1" y1="0" x2="-1" y2="3" x3="-2" y3="1.5" textsize="1.27" textratio="14" layer="47"/>
 <dimension x1="41" y1="40" x2="41" y2="0" x3="43" y3="20" textsize="1.27" textratio="14" layer="47"/>
 <dimension x1="0" y1="-1" x2="40" y2="-1" x3="20" y3="-3" textsize="1.27" textratio="14" layer="47"/>
+<text x="29.5" y="16.19" size="1.778" layer="21" font="vector" ratio="14" align="center-right">!RST</text>
+<text x="29.5" y="13.65" size="1.778" layer="21" font="vector" ratio="14" align="center-right">GPIO0</text>
+<text x="29.5" y="21.27" size="1.778" layer="21" font="vector" ratio="14" align="center-right">RX</text>
+<text x="29.5" y="23.81" size="1.778" layer="21" font="vector" ratio="14" align="center-right">TX</text>
+<text x="29.5" y="26.35" size="1.778" layer="21" font="vector" ratio="14" align="center-right">GND</text>
 </plain>
 <libraries>
 <library name="SuperHouse-Test" urn="urn:adsk.eagle:library:11872127">
@@ -256,65 +256,6 @@ tapr.org/OHL</text>
 </library>
 <library name="SuperHouse-Connectors" urn="urn:adsk.eagle:library:11765989">
 <packages>
-<package name="ESPROG-S" urn="urn:adsk.eagle:footprint:12469081/1" library_version="92">
-<description>ESProg Programming Header</description>
-<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="13.97" y1="0.635" x2="13.97" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="13.335" y1="1.27" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="13.97" y1="-0.635" x2="13.335" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="12.065" y1="-1.27" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="13.335" y1="-1.27" x2="12.065" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="12.065" y1="1.27" x2="13.335" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.6096" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.6096" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.6096" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.6096" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-</package>
 <package name="1X01" urn="urn:adsk.eagle:footprint:13097100/1" library_version="94">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
@@ -331,16 +272,72 @@ tapr.org/OHL</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="HDRVR6W64P254_1X6_1524X254X860C" urn="urn:adsk.eagle:package:12469082/2" type="model" library_version="92">
-<description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.60 mm insulator length, 15.24 X 2.54 X 8.60 mm body
-&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.60 mm insulator length with overall size 15.24 X 2.54 X 8.60 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="ESPROG-S"/>
-</packageinstances>
-</package3d>
 <package3d name="1X01" urn="urn:adsk.eagle:package:13097103/1" type="box" library_version="94">
 <packageinstances>
 <packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SuperHouse-ESP-Prog" urn="urn:adsk.eagle:library:14353672">
+<description>ESP8266, ESP8285, and ESP32 programming and JTAG headers.&lt;br&gt;
+Created by Jonathan Oxer &lt;jon@oxer.com.au&gt; for SuperHouse Automation Pty Ltd.&lt;br&gt;
+Shrouded headers were designed in Fusion 360. Pin headers were generated in Eagle.&lt;br&gt;
+Free for use for any purpose.</description>
+<packages>
+<package name="1X6-2.54-SOCKET-RA" urn="urn:adsk.eagle:footprint:20479882/1" library_version="40">
+<description>ESP-Prog Programming Header: 1x6 @ 2.54mm format, 1mm holes with right angle pin header</description>
+<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="7.62" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-0.635" width="0.6096" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-1.27" width="0.6096" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-7.62" y2="-1.27" width="0.6096" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.6096" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-5.08" y2="1.27" width="0.6096" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="7.62" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.445" y1="-1.27" x2="-3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="5.08" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="-1.27" x2="7.62" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-6.35" y="0" drill="1" shape="octagon"/>
+<pad name="2" x="-3.81" y="0" drill="1"/>
+<pad name="3" x="-1.27" y="0" drill="1"/>
+<pad name="4" x="1.27" y="0" drill="1"/>
+<pad name="5" x="3.81" y="0" drill="1"/>
+<pad name="6" x="6.35" y="0" drill="1"/>
+<text x="0" y="1.8288" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" font="vector" align="bottom-center">ESP-Prog</text>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="HDRRAR6W64P254_1X6_1524X736X278C" urn="urn:adsk.eagle:package:20479883/2" type="model" library_version="40">
+<description>Single-row, 6-pin Receptacle Header (Female) Right Angle, 2.54 mm (0.10 in) col pitch, 7.36 mm insulator length, 15.24 X 7.36 X 2.78 mm body
+&lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Right Angle package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 7.36 mm insulator length with body size 15.24 X 7.36 X 2.78 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1X6-2.54-SOCKET-RA"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -356,21 +353,17 @@ tapr.org/OHL</text>
 <class number="1" name="power" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
-<description language="fr">&lt;b&gt;EAGLE Design Rules for PCBCart (Standard PCB)&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;Characteristics:&lt;/b&gt;&lt;/p&gt;
+<designrules name="SuperHouse-Design-Rules">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Minimum Trace/Spacing: 8mil (0.2mm)&lt;/li&gt;
-&lt;li&gt;Minimum Annular Ring: 12mil (0.3mm)&lt;/li&gt;
-&lt;li&gt;Minimum Drill: 0.4mm (16mil)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;b&gt;Hole Tolerances&lt;/b&gt; (for reference only):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;+/- 0.1mm for PTH holes&lt;/li&gt;
-&lt;li&gt;+/- 0.075mm for NPTH holes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;SuperHouse Design Rules&lt;/b&gt;
+&lt;p&gt;
+These rules have been set to have limits that are safe for most board fabs, while still allowing polygon pours into most places. Vias 0.5mm and smaller are tented.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -380,17 +373,17 @@ tapr.org/OHL</text>
 <param name="mdPadPad" value="8mil"/>
 <param name="mdPadVia" value="8mil"/>
 <param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
+<param name="mdCopperDimension" value="18mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="8mil"/>
-<param name="msDrill" value="0.4mm"/>
-<param name="msMicroVia" value="999mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -399,36 +392,36 @@ tapr.org/OHL</text>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="8mil"/>
+<param name="rlMinPadTop" value="7mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="8mil"/>
+<param name="rlMinPadInner" value="7mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="8mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="10mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="10mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="99mil"/>
-<param name="rlMaxMicroViaOuter" value="999mil"/>
-<param name="rlMinMicroViaInner" value="99mil"/>
-<param name="rlMaxMicroViaInner" value="999mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="0"/>
+<param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="8mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
-<param name="mlMaxCreamFrame" value="8mil"/>
-<param name="mlViaStopLimit" value="25mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="8mil"/>
+<param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -568,13 +561,12 @@ tapr.org/OHL</text>
 <attribute name="NAME" x="27.3" y="36.7" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="27.3" y="34.7" size="0.8128" layer="27" font="vector" align="top-center"/>
 </element>
-<element name="J1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="ESPROG-S" package3d_urn="urn:adsk.eagle:package:12469082/2" value="ESPROG-SOCKET" x="30" y="13" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.1712" y="11.6538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="33.175" y="11.73" size="1.27" layer="27" rot="R90"/>
-</element>
 <element name="J2" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" package="1X01" package3d_urn="urn:adsk.eagle:package:13097103/1" value="M01-PLAIN" x="30" y="7.92" smashed="yes">
 <attribute name="NAME" x="28.6538" y="9.7488" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="28.73" y="4.745" size="1.27" layer="27"/>
+</element>
+<element name="J1" library="SuperHouse-ESP-Prog" library_urn="urn:adsk.eagle:library:14353672" package="1X6-2.54-SOCKET-RA" package3d_urn="urn:adsk.eagle:package:20479883/2" value="ESP-PROG-1X6-2.54-SOCKET-RA" x="31" y="20" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.8288" y="20" size="1.27" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -585,8 +577,8 @@ tapr.org/OHL</text>
 <vertex x="0" y="0"/>
 <vertex x="0" y="40"/>
 </polygon>
-<contactref element="J1" pad="1"/>
 <contactref element="TP2" pad="P$1"/>
+<contactref element="J1" pad="1"/>
 </signal>
 <signal name="3.3V">
 <polygon width="0.4064" layer="16" isolate="0.254">
@@ -595,8 +587,8 @@ tapr.org/OHL</text>
 <vertex x="0" y="0"/>
 <vertex x="0" y="40"/>
 </polygon>
-<contactref element="J1" pad="3"/>
 <contactref element="TP1" pad="P$1"/>
+<contactref element="J1" pad="4"/>
 </signal>
 <signal name="GPIO2">
 <contactref element="TP6" pad="P$1"/>
@@ -607,32 +599,34 @@ tapr.org/OHL</text>
 <wire x1="20" y1="17.92" x2="20" y2="27" width="0.254" layer="1"/>
 </signal>
 <signal name="SONOFF_TX">
-<contactref element="J1" pad="5"/>
 <contactref element="TP3" pad="P$1"/>
-<wire x1="30" y1="23.16" x2="28" y2="25.16" width="0.254" layer="1"/>
-<wire x1="28" y1="31" x2="23.5" y2="35.5" width="0.254" layer="1"/>
+<wire x1="23.5" y1="35.5" x2="28" y2="31" width="0.254" layer="1"/>
 <wire x1="23.5" y1="35.5" x2="20.4" y2="35.5" width="0.254" layer="1"/>
-<wire x1="28" y1="25.16" x2="28" y2="31" width="0.254" layer="1"/>
+<contactref element="J1" pad="2"/>
+<wire x1="28" y1="26.81" x2="31" y2="23.81" width="0.254" layer="1"/>
+<wire x1="28" y1="31" x2="28" y2="26.81" width="0.254" layer="1"/>
 </signal>
 <signal name="SONOFF_RX">
-<contactref element="J1" pad="4"/>
 <contactref element="TP4" pad="P$1"/>
-<wire x1="30" y1="20.62" x2="27" y2="23.62" width="0.254" layer="1"/>
 <wire x1="27" y1="30" x2="23.3" y2="33.7" width="0.254" layer="1"/>
 <wire x1="23.3" y1="33.7" x2="20.2" y2="33.7" width="0.254" layer="1"/>
-<wire x1="27" y1="23.62" x2="27" y2="30" width="0.254" layer="1"/>
+<contactref element="J1" pad="3"/>
+<wire x1="27" y1="30" x2="27" y2="25.27" width="0.254" layer="1"/>
+<wire x1="27" y1="25.27" x2="31" y2="21.27" width="0.254" layer="1"/>
 </signal>
 <signal name="!RESET">
-<contactref element="J1" pad="6"/>
 <contactref element="TP7" pad="P$1"/>
-<wire x1="30" y1="25.7" x2="30" y2="33" width="0.254" layer="1"/>
-<wire x1="30" y1="33" x2="27.3" y2="35.7" width="0.254" layer="1"/>
+<contactref element="J1" pad="5"/>
+<wire x1="34" y1="17" x2="33.19" y2="16.19" width="0.254" layer="1"/>
+<wire x1="33.19" y1="16.19" x2="31" y2="16.19" width="0.254" layer="1"/>
+<wire x1="27.3" y1="35.7" x2="34" y2="29" width="0.254" layer="1"/>
+<wire x1="34" y1="29" x2="34" y2="17" width="0.254" layer="1"/>
 </signal>
 <signal name="GPIO0">
-<contactref element="J1" pad="2"/>
 <contactref element="TP5" pad="P$1"/>
-<wire x1="30" y1="15.54" x2="22.1" y2="23.44" width="0.254" layer="1"/>
-<wire x1="22.1" y1="23.44" x2="22.1" y2="26.4" width="0.254" layer="1"/>
+<contactref element="J1" pad="6"/>
+<wire x1="22.1" y1="22.55" x2="31" y2="13.65" width="0.254" layer="1"/>
+<wire x1="22.1" y1="26.4" x2="22.1" y2="22.55" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
